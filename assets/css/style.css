@@ -1,0 +1,63 @@
+header {
+
+    display: flex;
+    padding: 20px 35px;
+    flex-wrap: wrap;
+    background-color: #39a6b2;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+
+    background-image: url("../images/hero-bg.jpg");
+    background-color: #024e76;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+
+    z-index: 9999;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 10px;
+}
+
+header nav {
+
+    top: 0;
+    left: 0;
+    margin: 7px 0;
+}
+
+header nav ul {
+
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    list-style: none;
+  
+  }
+
+  header nav ul li a {
+
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover 
+{
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
