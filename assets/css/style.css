@@ -1,27 +1,38 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+ background-color: bisque;
+}
+
 header {
 
     display: flex;
     padding: 20px 35px;
     flex-wrap: wrap;
-    background-color: #39a6b2;
     justify-content: space-between;
 
     position: sticky;
     top: 0;
     position: -webkit-sticky;
 
-    background-image: url("../images/hero-bg.jpg");
-    background-color: #024e76;
+    background-image: url("../images/lighthouse-banner.jpg");
     background-size: cover;
-    background-position: 80%;
+    background-position: 100%;
     background-attachment: fixed;
 
     z-index: 9999;
 }
 
 header h1 {
-    text-align: center;
-    font-size: 100px;
+    
+    font-size: 40px;
     margin: 10px;
 }
 
@@ -31,7 +42,7 @@ header nav {
     left: 0;
     margin: 7px 0;
 }
-
+footer nav ul,
 header nav ul {
 
     display: flex;
@@ -45,19 +56,49 @@ header nav ul {
     list-style: none;
   
   }
-
+  footer nav ul li a,
   header nav ul li a {
 
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
 }
-
+footer nav ul li a:hover,
 header nav ul li a:hover 
 {
   background: #fce138;
   color: #024e76;
   border-radius: 15px;
   text-shadow: none;
+}
+
+section h2 {
+  color: black;
+  font-size: 30px;
+  padding: 50px;
+ 
+}
+
+.about {
+  font-size: 30px;
+  padding: 40px
+}
+
+footer {
+  display: flex;
+  padding: 20px 35px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 80px;
+}
+
+footer h2 {
+  margin: 20px;
 }
