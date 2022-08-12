@@ -140,6 +140,57 @@ section h2 {
   font-size: 20px;
 }
 
+.services img {
+  position: absolute;
+ right: 100px;
+ top: 215px;
+ height: 80%;
+ width: 40%;
+}
+
+.index img {
+  position: absolute;
+ right: 100px;
+ top: 155px;
+ height: 50%;
+ width: 40%;
+}
+
+.prep {
+  background-color: #064461;
+  width: 50%;
+}
+
+.account {
+  background-color: #073e57;
+  width: 50%;
+}
+
+.pack {
+  background-color: #083449;
+  width: 50%;
+}
+
+.book {
+  background-color: #072a3a;
+  width: 50%;
+}
+
+.quick {
+  background-color: #051e29;
+  width: 50%;
+}
+
+.irs {
+  background-color: #04161f;
+  width: 50%;
+}
+
+.cons {
+  background-color: #020d13;
+  width: 50%;
+}
+
 .contact {
   padding: 100px;
   font-size: 50px;
