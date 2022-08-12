@@ -96,6 +96,15 @@ section h2 {
   height: 50%;
 }
 
+.index img {
+  position: absolute;
+ right: 100px;
+ top: 155px;
+ height: 50%;
+ width: 40%;
+}
+
+
 .index p {
   font-size: 30px;
   
@@ -149,13 +158,6 @@ section h2 {
  width: 40%;
 }
 
-.index img {
-  position: absolute;
- right: 100px;
- top: 155px;
- height: 50%;
- width: 40%;
-}
 
 .prep {
   background-color: #064461;
