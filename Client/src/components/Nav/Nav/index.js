@@ -17,7 +17,7 @@ const Nav = () => {
                   </li>
                   <li>
             <Link className="link" as={Link} to='/aboutme'>
-                  About Me
+                  About
                   </Link>
                   </li>
                   <li>

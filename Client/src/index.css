@@ -273,3 +273,136 @@ input {
 .login:hover {
   transform: scale(1.1);
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+/* Home page media */
+.home {
+  margin: 100px 20px;
+  line-height: 1;
+}
+
+.home h1 {
+  font-size: 30px;
+}
+
+.home p {
+  font-size: 20px;
+  width: 100%;
+}
+
+.home button {
+  width: 100%;
+}
+
+.navDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  height: 9%;
+}
+.brand {
+  top: -10px;
+  left: 115px;
+}
+
+nav {
+  top: 15px;
+  right: 115px;
+  font-size: 15px;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* end of homepage media */
+
+/* about page media */
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.season {
+  margin: 160px 0;
+  height: 35vh;
+}
+
+.season h2 {
+  font-size: 35px;
+}
+
+.season p {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.period {
+  margin: 160px 0;
+  height: 100vh;
+}
+
+.period h2 {
+  font-size: 35px;
+}
+
+.period p {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.bookeeper {
+  margin: 160px 0;
+  height: 35vh;
+}
+
+.bookeeper h2 {
+  font-size: 35px;
+}
+
+.bookeeper p {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.support {
+  margin: 160px 0;
+  height: 140vh;
+}
+
+.support h2 {
+  font-size: 35px;
+}
+
+.support p {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.stress {
+  margin: 160px 0;
+  height: 100vh;
+}
+
+.stress h2 {
+  font-size: 35px;
+}
+
+.stress p {
+  font-size: 25px;
+  margin: 0 10px;
+}
+/* end of about page media */
+
+ }
