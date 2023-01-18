@@ -6,8 +6,6 @@ type User {
     _id: ID!
     username: String
     email: String
-    movieCount: Int
-    savedMovies: [Movie]
   }
 type Query {
     me: User 

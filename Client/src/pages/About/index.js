@@ -9,6 +9,7 @@ const About = () => {
                  <h2>Are you ready for tax season?</h2>
                  <p>No worries if you're not, you're in good hands!</p>
             </div>
+    
         <div className="period">
             <h2>Providing bookeeping services for over 25 years.</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
@@ -29,9 +30,9 @@ const About = () => {
             financial data and putting it together piece by piece. 
             She can give you a set of information you can understand 
             and use to run your business effciently. You've got 
-            financial problems and she's got the answers! adsasdasdaasdasd</p>  
+            financial problems and she's got the answers!</p>  
         </div>
-            <div>
+            <div className="support">
                 <h2>One-on-one expert support</h2>
                 <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
@@ -49,7 +50,7 @@ const About = () => {
                     velit esse quam nihil molestiae consequatur, vel illum qui 
                     dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             </div>
-        <div>
+        <div className="stress">
             <h2>Tax season, minus the stress</h2>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
