@@ -4,7 +4,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run prod || npm run develop",
+    "start": "npm run prod || npm run develop",
     "Prod": "cd Server && npm start",
     "develop": "concurrently \"cd Server && npm run watch\" \"cd Client && npm start\"",
     "install": "cd Server && npm i && cd ../Client && npm i",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JaredLove/Bookeeper2go/issues"
   },
-  "homepage": "https://github.com/JaredLove/Bookeeper2go#readme"
+  "homepage": "https://github.com/JaredLove/Bookeeper2go#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
