@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className='home'>
             
-            <h1>GOT A BOOKEEPER?</h1>
+            <h1>GOT A BOOKKEEPER?</h1>
             <h2>I CAN TAKE CARE OF THAT.</h2>
             <p>With 25 years of experience from payroll, full charge bookkeeping,
                 tax preparation and quick books training. No more stress let us
